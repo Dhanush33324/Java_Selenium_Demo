@@ -1,0 +1,6 @@
+20:19:15.142 [TestNG-tests-2] INFO  Academy.EndToEndDemo.HomePage - Navigatge to home page
+20:19:16.134 [TestNG-tests-2] INFO  Academy.EndToEndDemo.HomePage - 
+20:21:41.642 [TestNG-tests-2] INFO  Academy.EndToEndDemo.HomePage - Driver is initialized
+20:21:46.680 [TestNG-tests-1] INFO  Academy.EndToEndDemo.ValidateTitle - Landing opage Opened
+20:21:47.663 [TestNG-tests-2] INFO  Academy.EndToEndDemo.HomePage - Navigatge to home page
+20:21:49.256 [TestNG-tests-2] INFO  Academy.EndToEndDemo.HomePage - 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<listeners>
+<listener class-name = "Academy.EndToEndDemo.Listeners"/>
+</listeners>
+  <test thread-count="5" name="TitleValidation">
+    <classes>
+      <class name="Academy.EndToEndDemo.ValidateTitle"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="HomepageAccess">
+    <classes>
+      <class name="Academy.EndToEndDemo.HomePage"/>
+    </classes>
+  </test> 
+   <test thread-count="5" name="NavigationbarValidation">
+    <classes>
+      <class name="Academy.EndToEndDemo.ValidateNavigateBar"/>
+    </classes>
+  </test>  <!-- Test -->
+</suite> <!-- Suite -->

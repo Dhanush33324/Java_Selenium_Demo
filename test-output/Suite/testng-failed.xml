@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.EndToEndDemo.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="NavigationbarValidation(failed)">
+    <classes>
+      <class name="Academy.EndToEndDemo.ValidateNavigateBar">
+        <methods>
+          <include name="tesrDown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.EndToEndDemo.ValidateNavigateBar -->
+    </classes>
+  </test> <!-- NavigationbarValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
